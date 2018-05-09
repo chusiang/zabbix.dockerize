@@ -1,0 +1,27 @@
+zabbix-db:
+  volumes:
+    - ./database:/var/lib/mysql
+  environment:
+    MARIADB_USER: "zabbix"
+    MARIADB_PASS: "R2uA8cVMAaZazZTe"
+  image: monitoringartist/zabbix-db-mariadb
+
+zabbix-server:
+  links:
+    - zabbix-db:zabbix.db
+  ports:
+    - 8080:80/tcp
+    - 8443:443/tcp
+    - 10050:10050/tcp
+    - 10051:10051/tcp
+    - 10052:10052/tcp
+    - 162:162/udp
+  environment:
+    PHP_date_timezone: "Asia/Taipei"
+    ZS_CacheSize: "32M"
+    ZS_DBHost: "zabbix.db"
+    ZS_DBPassword: "R2uA8cVMAaZazZTe"
+    ZS_DBUser: "zabbix"
+    ZS_StartDiscoverers: "5"
+    ZW_ZBX_SERVER_NAME: "Zabbix 3.0.4 | Dockerize"
+  image: monitoringartist/zabbix-3.0-xxl:3.0.4
