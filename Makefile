@@ -6,7 +6,7 @@
 #  Description: Do something with make.
 # ==============================================================================
 
-.PHONY: main pull run ps stop clean
+.PHONY: main pull run ps stop clean clean_db
 
 main: pull
 
@@ -26,3 +26,6 @@ stop:
 
 clean: stop
 	docker-compose rm -f
+
+clean_db: clean
+	-rm -rf database/*
