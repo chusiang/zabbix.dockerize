@@ -32,6 +32,8 @@ Setup the [Zabbix][zabbix_official] Server of Dockerize.
 
 ### Run container
 
+![Operate on Console](https://user-images.githubusercontent.com/219066/40526310-4bffadd6-6018-11e8-95dc-75c959b37d7e.gif)
+
 1. Choose one version like `3.4.9`.
 
     ```
@@ -59,6 +61,7 @@ Setup the [Zabbix][zabbix_official] Server of Dockerize.
 
 ### Go to website
 
+![Operate on Browser](https://user-images.githubusercontent.com/219066/40526343-809745d6-6018-11e8-8a82-d1643596c97e.gif)
 
 ```
 # GNU/Linux.
@@ -67,6 +70,8 @@ $ firefox http://localhost:8080
 # macOS.
 $ open http://localhost:8080
 ```
+
+> This default username/password is `Admin` and `zabbix`.
 
 Enjoy it !
 
