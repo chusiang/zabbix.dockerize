@@ -61,6 +61,8 @@ Setup the [Zabbix][zabbix_official] Server of Dockerize.
 
 ### Go to website
 
+This default username/password is `Admin` and `zabbix`.
+
 ![Operate on Browser](https://user-images.githubusercontent.com/219066/40526343-809745d6-6018-11e8-8a82-d1643596c97e.gif)
 
 ```
@@ -71,7 +73,7 @@ $ firefox http://localhost:8080
 $ open http://localhost:8080
 ```
 
-> This default username/password is `Admin` and `zabbix`.
+> If you like the **Foxmosa**, you can get this add-on at https://addons.mozilla.org/zh-TW/firefox/addon/foxmosa-with-you/ .
 
 Enjoy it !
 
