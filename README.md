@@ -2,7 +2,9 @@
 
 [![OS](https://img.shields.io/badge/os-centos-blue.svg)](https://hub.docker.com/_/centos/) [![Dockerize](https://img.shields.io/badge/dockerize-zabbix-blue.svg)](https://github.com/chusiang/zabbix.dockerize)
 
-Setup the [Zabbix][zabbix_official] Server of Dockerize.
+Setup the [Zabbix][zabbix_official] Server with Docker.
+
+> Thanks the [Monitoring Artist](https://monitoringartist.com) for maintain so many dockerize images of Zabbix.
 
 [zabbix_official]: https://www.zabbix.com
 
