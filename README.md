@@ -11,6 +11,7 @@ Setup the [Zabbix][zabbix_official] Server with Docker.
 ## Supported version and respective `docker-compose.yml` links
 
 - `3.0.4` [*(docker-compose.yml)*](https://github.com/chusiang/zabbix.dockerize/blob/master/v3.0.4/docker-compose.yml)
+- `3.2.6` [*(docker-compose.yml)*](https://github.com/chusiang/zabbix.dockerize/blob/master/v3.2.6/docker-compose.yml)
 - `3.4.7` [*(docker-compose.yml)*](https://github.com/chusiang/zabbix.dockerize/blob/master/v3.4.7/docker-compose.yml)
 - `3.4.9` [*(docker-compose.yml)*](https://github.com/chusiang/zabbix.dockerize/blob/master/v3.4.9/docker-compose.yml)
 
@@ -83,6 +84,7 @@ Enjoy it !
 
 ### 2018
 
+* 08/15: Add `v3.2.6` version.
 * 05/25: Add `v3.4.9` version.
 
 ## Reference
