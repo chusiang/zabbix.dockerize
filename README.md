@@ -14,6 +14,7 @@ Setup the [Zabbix][zabbix_official] Server with Docker.
 - `3.2.6` [*(docker-compose.yml)*](https://github.com/chusiang/zabbix.dockerize/blob/master/v3.2.6/docker-compose.yml)
 - `3.4.7` [*(docker-compose.yml)*](https://github.com/chusiang/zabbix.dockerize/blob/master/v3.4.7/docker-compose.yml)
 - `3.4.9` [*(docker-compose.yml)*](https://github.com/chusiang/zabbix.dockerize/blob/master/v3.4.9/docker-compose.yml)
+- `4.0.5` [*(docker-compose.yml)*](https://github.com/chusiang/zabbix.dockerize/blob/master/v4.0.5/docker-compose.yml)
 
 ## Usage
 
@@ -81,6 +82,10 @@ $ open http://localhost:8080
 Enjoy it !
 
 ## History
+
+### 2020
+
+* 03/23: Add `v4.0.5` version, and integrate the Grafana.
 
 ### 2018
 
